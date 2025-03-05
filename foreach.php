@@ -1,0 +1,37 @@
+<?php
+    
+    echo "<b>NIM:</b> 102022300248 <br>";
+    echo "<b>Nama:</b> Fauziah Adinda <br><br>";
+
+    
+    $mahasiswa = ['Mahasiswa 1', 'Mahasiswa 2', 'Mahasiswa 3', 'Mahasiswa 4', 'Mahasiswa 5'];
+
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan PHP 11</title>
+</head>
+<body>
+    <h2>Daftar Mahasiswa</h2>
+    <?php
+    // Menampilkan NIM dan Nama Lengkap
+    echo "<strong>NIM: 123456789</strong><br>";
+    echo "<strong>Nama: Nama Lengkap Anda</strong><br><br>";
+
+    // Array Mahasiswa
+    $mahasiswa = ['Mahasiswa 1', 'Mahasiswa 2', 'Mahasiswa 3', 'Mahasiswa 4', 'Mahasiswa 5'];
+
+    // Menampilkan menggunakan foreach
+    foreach ($mahasiswa as $row) {
+        echo $row . "<br>";
+    }
+    ?>
+</body>
+</html>
+
+    foreach($mahasiswa as $row){
+        echo $row . "<br>";
+    }
+?>
